@@ -2271,6 +2271,44 @@ span.stButton_gradient,
 }
 
 
+.fs-5 {
+    font-size: 1.25rem !important;
+}
+
+.text-light {
+    color: #f13e00 !important;
+}
+
+table,td{
+    table-layout: fixed;
+    text-align: center;
+    font-size: 8px;
+    white-space: nowrap;
+    text-overflow:
+    ellipsis;
+    overflow: hidden;
+}
+td:nth-child(1) {
+    color: #000000;
+}
+td:nth-child(2) {
+    color: #0b0b0d;
+}
+td:nth-child(3) {
+    color: #010901;
+
+}
+
+.row {
+    /* --bs-gutter-x: 1.5rem; */
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
 /*************************
 ********404 page CSS******
 **************************/
