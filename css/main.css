@@ -1,18 +1,17 @@
 
+
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
   @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
   body {
-    
-    background : #eee
+    background: #eee;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
     color: #000;
   }
-
 
   html {
     height: 100%;
@@ -45,8 +44,6 @@
     -o-transition: 300ms;
     transition: 300ms;
   }
-
-
 
 
   ul {
@@ -2272,35 +2269,6 @@ span.stButton_gradient,
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-
-.fs-5 {
-    font-size: 1.25rem !important;
-}
-
-.text-light {
-    color: #f13e00 !important;
-}
-
-table,td{
-    table-layout: fixed;
-    text-align: center;
-    font-size: 12px;
-    white-space: nowrap;
-    text-overflow:
-    ellipsis;
-    overflow: hidden;
-}
-td:nth-child(1) {
-    color: #000000;
-}
-td:nth-child(2) {
-    color: #0b0b0d;
-}
-td:nth-child(3) {
-    color: #010901;
-
 }
 
 
