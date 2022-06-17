@@ -46,6 +46,17 @@
     transition: 300ms;
   }
 
+.warning {
+position: relative;
+  z-index: 1;
+}
+
+.coinmarketcap-currency-widget{
+  position: relative;
+  z-index: 3;
+  
+}
+
 
   ul {
     list-style: none;
