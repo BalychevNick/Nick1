@@ -46,16 +46,7 @@
     transition: 300ms;
   }
 
-.warning {
-position: relative;
-  z-index: 1;
-}
 
-.coinmarketcap-currency-widget{
-  position: relative;
-  z-index: 3;
-  
-}
 
 
   ul {
@@ -2312,15 +2303,6 @@ td:nth-child(3) {
 
 }
 
-.row {
-    /* --bs-gutter-x: 1.5rem; */
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) / -2);
-    margin-left: calc(var(--bs-gutter-x) / -2);
-}
 
 /*************************
 ********404 page CSS******
